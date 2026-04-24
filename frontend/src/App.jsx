@@ -16,7 +16,7 @@ function App() {
     <Routes>
       <Route path='/register' element={<Register/>}/>
       <Route path='/login' element={<LoginPage/>}/>
-      <Route path='/jobs' element={<JoblistPage/>}/>
+      <Route path='/' element={<JoblistPage/>}/>
       <Route path='/apply/:jobId' element={<Apply/>}/>
     </Routes>
     </BrowserRouter>

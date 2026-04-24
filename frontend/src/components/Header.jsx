@@ -11,7 +11,7 @@ function Header() {
           </div>
 
           <nav className="d-none d-md-flex gap-4 small fw-medium">
-            <a href="/jobs" className="text-decoration-none text-dark">Jobs</a>
+            <a href="/" className="text-decoration-none text-dark">Jobs</a>
              {username ? (
             <span className="text-dark fw-semibold">
               Welcome, {username}!

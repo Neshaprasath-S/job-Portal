@@ -12,14 +12,17 @@ function App() {
 
   return (
     <>
-   
+    
+  
     <Routes>
       <Route path='/register' element={<Register/>}/>
       <Route path='/login' element={<LoginPage/>}/>
       <Route path='/' element={<JoblistPage/>}/>
       <Route path='/apply/:jobId' element={<Apply/>}/>
-    </Routes>
+     </Routes>
    
+   
+  
     </>
 
   )

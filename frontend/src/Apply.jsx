@@ -47,7 +47,7 @@ function Apply() {
   return (
     <main className="flex-grow-1">
       <div className="container pt-4">
-        <NavLink to="/jobs" className="text-primary small text-decoration-none">
+        <NavLink to="/" className="text-primary small text-decoration-none">
           ← Back to Jobs
         </NavLink>
       </div>
